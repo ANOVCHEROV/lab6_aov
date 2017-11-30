@@ -21,5 +21,6 @@ namespace MVCproject_Zoo.Models
         // Model First
         // Database First подходы
         // 45455454545
+        //ttttt
     }
 }
