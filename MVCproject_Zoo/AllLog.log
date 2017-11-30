@@ -1,0 +1,11 @@
+2017-11-02 18:48:39,721 [5] INFO  RecordsDAO Getting records
+2017-11-02 18:48:56,981 [5] INFO  RecordsDAO Getting one record  by id
+2017-11-02 18:48:57,284 [5] INFO  RecordsDAO Getting records
+2017-11-02 18:49:00,356 [5] INFO  RecordsDAO Getting records
+2017-11-02 18:49:01,549 [5] INFO  RecordsDAO Getting one record  by id
+2017-11-02 18:49:01,786 [5] INFO  RecordsDAO Getting records
+2017-11-02 18:49:04,327 [5] INFO  RecordsDAO Getting records
+2017-11-02 18:49:06,803 [5] INFO  RecordsDAO Getting one record  by id
+2017-11-02 18:49:07,040 [5] INFO  RecordsDAO Getting records
+2017-11-02 18:49:09,188 [5] INFO  RecordsDAO Delete record
+2017-11-02 18:49:09,626 [13] INFO  RecordsDAO Getting records

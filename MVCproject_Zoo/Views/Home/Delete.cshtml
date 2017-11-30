@@ -1,0 +1,62 @@
+﻿@model MVCproject_Zoo.Models.Animals
+
+@{
+    ViewBag.Title = "Delete";
+}
+
+<h2>Удаление</h2>
+
+<h3>Вы уверены, что хотите удалить эту запись?</h3>
+<div>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Id)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Id)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Count)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Count)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Name)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Information)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Information)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.AddingDate)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.AddingDate)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm()) {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Удалить" class="btn btn-default" /> |
+            @Html.ActionLink("Назад к списку", "Index")
+        </div>
+    }
+</div>
