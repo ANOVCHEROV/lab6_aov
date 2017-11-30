@@ -18,7 +18,5 @@ namespace MVCproject_Zoo.Models
         public string Information { get; set; }
         public DateTime AddingDate { get; set; }
         public List<Animals> animals = new List<Animals>();
-        // Model First
-        // Database First подходы
     }
 }
