@@ -20,6 +20,5 @@ namespace MVCproject_Zoo.Models
         public List<Animals> animals = new List<Animals>();
         // Model First
         // Database First подходы
-        // 45455454545
     }
 }
